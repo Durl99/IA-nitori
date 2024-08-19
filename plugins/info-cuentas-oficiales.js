@@ -22,16 +22,16 @@ ${bot}
 *PARA PREGUNTAS O ASISTENCIA RÁPIDA: INSTAGRAM.*\n
 *FOR QUESTIONS OR QUICK ASSISTANCE: INSTAGRAM .*`
 await conn.sendButton(m.chat, str, wm, media, [
-['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝙂𝙧𝙤𝙪𝙥𝙨 🔰', '.grupos'],
-['𝘾𝙧𝙚𝙖𝙙𝙤𝙧𝙖 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 💗', '#owner'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']], null, [
-['𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', md]], fkontak)}
+['𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐋𝐄𝐒🌐', '.grupos'],
+['𝐂𝐑𝐄𝐀𝐃𝐎𝐑💻', '#owner'],
+['𝙳𝙴 𝚅𝚄𝙴𝙻𝚃𝙰 𝙰𝙻 𝙼𝙴𝙽Ú📱', '/menu']], null, [
+['ＡＩ ＮＩＴＯＲＩ💫', md]], fkontak)}
 //conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)
 /*conn.sendHydrated(m.chat, str, wm, media, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝙂𝙧𝙪𝙥𝙤𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝙂𝙧𝙤𝙪𝙥𝙨 🔰', '.grupos'],
-['𝘾𝙧𝙚𝙖𝙙𝙤𝙧𝙖 | 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 💗', '#owner'],
-['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
+['𝐆𝐑𝐔𝐏𝐎𝐒 𝐎𝐅𝐈𝐂𝐈𝐀𝐋𝐄𝐒 🌐', '.grupos'],
+['𝐂𝐑𝐄𝐀𝐃𝐎𝐑 💻', '#owner'],
+['𝙳𝙴 𝚅𝚄𝙴𝙻𝚃𝙰 𝙰𝙻 𝙼𝙴𝙽Ú', '/menu']
 ], m,)}*/
-handler.command = /^cuentasoficiales|gataig|cuentasgb|cuentagb|accounts|gataaccounts|account|iggata|cuentasdegata|cuentasdegatabot|cuentagatabot|cuentasgatabot$/i
+handler.command = /^cuentasoficiales|nitoriig|cuentasni|cuentani|accounts|nitoriaccounts|account|ignito|cuentasnitori|cuentasdeainitori|cuentanitori|cuentasnitori$/i
 handler.exp = 35
 export default handler
