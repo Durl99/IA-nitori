@@ -75,15 +75,15 @@ await conn.reply(m.chat, estado, m, fakeChannel)
 ┃» ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} 
 ╰---------------------⬣`.trim()
 
-conn.sendHydrated(m.chat, estado, `𝔸𝕊𝕀𝕊𝕋𝔼ℕℂ𝕀𝔸\n${asistencia}\n\n` + wm, picture, 'https://github.com/Durl99/IA-nitori', '----', null, null, [
-['𝙈𝙚', '.allmenu'],
+conn.sendHydrated(m.chat, estado, `𝔸𝕊𝕀𝕊𝕋𝔼ℕℂ𝕀𝔸\n${asistencia}\n\n` + wm, picture, 'https://github.com/Durl99/IA-nitori', '𝘼𝙄 𝙉𝙄𝙏𝙊𝙍𝙄', null, null, [
+['𝕄𝔼ℕÚ ℂ𝕆𝕄ℙ𝕃𝔼𝕋𝕆', '.allmenu'],
 ['ℙ𝕀ℕ𝔾', '/ping'],
 ['𝔻𝔼 𝕍𝕌𝔼𝕃𝕋𝔸 𝔸𝕃 𝕄𝔼ℕÚ', '#menu']
 ], m,)}*/
 }
 handler.help = ['estado']
 handler.tags = ['main']
-handler.command = /^(estado|status|estate|state|heygata|stado|stats|botstat(us)?)$/i
+handler.command = /^(estado|status|estate|state|nitori|stado|stats|botstat(us)?)$/i
 export default handler
 
 function clockString(ms) {
