@@ -28,7 +28,7 @@ body: ig,
 "mediaUrl": paypal, 
 "sourceUrl": paypal, 
 }}}, { quoted: fkontak })}*/
-/*conn.sendHydrated(m.chat, str, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, media, 'https://paypal.me/OficialGD', '🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', null, null, [
+/*conn.sendHydrated(m.chat, str, `𝔸𝕊𝕀𝕊𝕋𝔼ℕℂ𝕀𝔸\n${asistencia}\n\n` + wm, media, 'https://paypal.me/DurlDios', '💸𝔻𝕆ℕ𝔸ℝ', null, null, [
 ['🌐𝔾ℝ𝕌ℙ𝕆𝕊', '.grupos'],
 ['💻ℂℝ𝔼𝔸𝔻𝕆ℝ', '#owner'],
 ['📱𝔻𝔼 𝕍𝕌𝔼𝕃𝕋𝔸 𝔸𝕃 𝕄𝔼ℕÚ', '/menu']
