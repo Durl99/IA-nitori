@@ -74,31 +74,31 @@ conn.reply(m.chat, 'Durl', fkontak,  m)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
 let teksbio = `AI Nitori
-*Wa.me/*
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 💖🐈
-*wa.me/593993684821*
+*Wa.me/+573152345669*
+Durl:
+*wa.me/+50660507320*
 *---------------------*
-*CENTER GATABOT*
-*centergatabot@gmail.com*
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+*Correo principal:*
+*durlingmedrano108@gmail.com*
+AI Nitori Asistencia
 *${asistencia}*`
   let teks = ' '
 const sections = [
    {
-	title: `PROPIETARIO/OWNER`,
+	title: `Propietario`,
 	rows: [
-	    {title: "📱 • NOMBRE", rowId: ".owner nombre"},
-	{title: "🙌 • NUMERO", rowId: ".owner bio"},
-	{title: "🌐 • CUENTAS OFICIALES", rowId: ".cuentasgb"},
-	{title: "😸 • GRUPOS", rowId: ".grupos"},
+	    {title: "🔮 • NOMBRE", rowId: ".owner nombre"},
+	{title: "📱 • NUMERO", rowId: ".owner bio"},
+	{title: "ℹ️ • CUENTAS OFICIALES", rowId: ".cuentasgb"},
+	{title: "🌐 • GRUPOS", rowId: ".grupos"},
 	{title: "🌎 • SCRIPT", rowId: ".sc"},
 	]
     },{
-	title: `–––––––·• APOYA AL BOT –––––––·•`,
+	title: `.            Donaciones:.        `,
 	rows: [
-	    {title: "💹 • DONAS", rowId: ".paypal"},
-	{title: "🤖 • INSTALARBOT", rowId: ".instalarbot"},
-	{title: "🌟 • PREMIUM", rowId: ".pasepremium"},
+	    {title: "💸 • DONAR", rowId: ".paypal"},
+	{title: "- • -", rowId: ".instalarbot"},
+	{title: "💫 • PREMIUM", rowId: ".pasepremium"},
 	]
   },
 ]
@@ -106,11 +106,11 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `╭━━━✦ *OWNER ✦━━━━⬣
-┃დ HOLA 👋 ${name}
+┃დ HOLA  ${name}
 ┃≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋≋
 ┃${wm}
 ╰━━━━━✦ *${vs}* ✦━━━━⬣`,
-  buttonText: "HAGA CLICK AQUI",
+  buttonText: "Nitori AI",
   sections
 }
   try {
@@ -118,12 +118,12 @@ const listMessage = {
       const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
         switch (type) {
           case 'nombre':
-          await conn.reply(m.chat, `𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝘽𝙊𝙏 : ${gt} 🐈`, fkontak, m)
-         // conn.reply(m.chat, "Nombre del bot : GataBot-MD 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
+          await conn.reply(m.chat, `Bot Name : ${gt} 🔮`, fkontak, m)
+         // conn.reply(m.chat, "Nombre del bot : AI Nitori 🔮", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
              await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', teksbio, fkontak)
-         // conn.sendButton(m.chat, teksbio, fkontak, pp, [`☘️ 𝗠 𝗘 𝗡 𝗨`, `.menu`], m)
+         // conn.sendButton(m.chat, teksbio, fkontak, pp, [` 𝗠 𝗘 𝗡 𝗨`, `.menu`], m)
             break
           default:
             return await conn.sendMessage(m.chat, listMessage, { quoted: m, contextInfo: { mentionedJid: [m.sender] }})
