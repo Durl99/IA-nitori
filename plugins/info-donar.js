@@ -7,10 +7,10 @@ let str = `POR SI DESEAS APOYAR EL PROYECTO ;)
 *https://paypal.me/OficialGD*
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈`
 await conn.sendButton(m.chat, str, `𝔸𝕊𝕀𝕊𝕋𝔼ℕℂ𝕀𝔸\n${asistencia}\n\n` + wm, media, [
-['𝔾ℝ𝕌ℙ𝕆𝕊', '.grupos'],
-['ℂℝ𝔼𝔸𝔻𝕆ℝ', '#owner'],
-['𝔻𝔼 𝕍𝕌𝔼𝕃𝕋𝔸 𝔸𝕃 𝕄𝔼ℕÚ', '/menu']], null, [
-['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', `https://paypal.me/OficialGD`]], fkontak)}
+['🌐𝔾ℝ𝕌ℙ𝕆𝕊', '.grupos'],
+['💻ℂℝ𝔼𝔸𝔻𝕆ℝ', '#owner'],
+['📱𝔻𝔼 𝕍𝕌𝔼𝕃𝕋𝔸 𝔸𝕃 𝕄𝔼ℕÚ', '/menu']], null, [
+['💸𝔻𝕆ℕ𝔸ℝ', `https://paypal.me/DurlDios`]], fkontak)}
 /*conn.sendMessage(m.chat, { 
 text: str, 
 contextInfo:{
@@ -21,7 +21,7 @@ mentionedJid:[m.sender],
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
 "thumbnail": imagen1, 
-"title": `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼`, 
+"title": ``, 
 body: ig, 
 "containsAutoReply": true,
 "mediaType": 1, 
