@@ -45,8 +45,8 @@ await conn.reply(m.chat, estado, m, fakeChannel)
 //['𝘼𝙄 𝙉𝙄𝙏𝙊𝙍𝙄', `${md}`]], fakeChannel, m) // await conn.reply(m.chat, bot, m, fakeChannel)
 
   
-  /*conn.sendHydrated(m.chat, estado, `𝙂\n${asistencia}\n\n` + wm, imagen1, 'https://github.com/GataNina-Li/GataBot-MD', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝙈𝙚𝙣𝙪́ 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙤 | 𝙁𝙪𝙡𝙡 𝙈𝙚𝙣𝙪', '.allmenu'],
+  /*conn.sendHydrated(m.chat, estado, `𝔸𝕊𝕀𝕊𝕋𝔼ℕℂ𝕀𝔸\n${asistencia}\n\n` + wm, imagen1, 'https://github.com/Durl99/AI-nitori', '𝘼𝙄 𝙉𝙄𝙏𝙊𝙍𝙄', null, null, [
+['𝕄𝕖𝕟ú 𝕔𝕠𝕞𝕡𝕝𝕖𝕥𝕠', '.allmenu'],
 ['𝙑𝙚𝙡𝙤𝙘𝙞𝙙𝙖𝙙 | 𝙎𝙥𝙚𝙚𝙙', '/ping'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '#menu']
 ], m,) */
