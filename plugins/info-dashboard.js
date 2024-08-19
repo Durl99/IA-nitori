@@ -8,9 +8,9 @@ return { name, ...val }
  
 stats = stats.sort((a, b) => b.total - a.total)
 var txt = stats.slice(0, 10).map(({ name, total, last }) => {
-return `┏━━━━━━━━━━━━━━━━┓\n┣📚 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 : ${name}\n┣🗂️ 𝙐𝙎𝙊𝙎 : ${total}\n┗━━━━━━━━━━━━━━━━┛`
+return `┏━━━━━━━━━━━━━━━━┓\n┣📱𝙲𝙾𝙼𝙰𝙽𝙳𝙾 : ${name}\n┣💽𝚄𝚂𝙾𝚂 : ${total}\n┗━━━━━━━━━━━━━━━━┛`
 }).join`\n\n`
-m.reply(`${lenguajeGB['smsAvisoIIG']()}⚡𝘿𝘼𝙎𝙃𝘽𝙊𝘼𝙍𝘿 𝘾𝙊𝙈𝘼𝙉𝘿𝙊𝙎 𝙈𝘼𝙎 𝙐𝙎𝘼𝘿𝙊𝙎 :\n\n${txt}`)}
+m.reply(`${lenguajeGB['smsAvisoIIG']()}🔥𝙳𝙰𝚂𝙷𝙱𝙾𝙰𝚁𝙳 𝙳𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾𝚂 𝙲𝙾𝙽 𝙼𝙰𝚂 𝚄𝚂𝙾𝚂 :\n\n${txt}`)}
 handler.help = ['dashboard']
 handler.tags = ['info']
 handler.command = /^dashboard$/i
