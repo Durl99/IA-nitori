@@ -151,7 +151,7 @@ global.mg = '╰»❗️» *𝙻𝙾 𝚄𝚂𝙰𝚂𝚃𝙴 𝙼𝙰𝙻* ⊱�
 global.mal = mg
 
 global.eeg = '╰»📨» *𝚁𝙴𝙿𝙾𝚁𝚃𝙴* ⊱📨∞\n\n'
-global.envio = eg
+global.envio = eeg
 
 global.eg = '╰»💜» *É𝚇𝙸𝚃𝙾* ⊱💜∞\n\n'
 global.exito = eg
